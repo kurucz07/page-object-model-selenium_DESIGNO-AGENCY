@@ -32,12 +32,12 @@ class NavigationSuite:
           parallelized_parameters=True)
     def verify_header_navigation(self, suite_parameter, parameter):
         page = suite_parameter().open()
-        page = getattr(page.header, f"click_{parameter}")()
+       # page = getattr(page.header, f"click_{parameter}")()
         NavigationSuite.__validate_page_properties(page)
 
     @test(parameters=["about", "locations", "contact"],
           parallelized_parameters=True)
     def verify_footer_navigation(self, suite_parameter, parameter):
         page = suite_parameter().open()
-        page = getattr(page.footer, f"click_{parameter}")()
+       # page = getattr(page.footer, f"click_{parameter}")()
         NavigationSuite.__validate_page_properties(page)
