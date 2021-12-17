@@ -1,8 +1,9 @@
-#Designo-agency
+Designo-agency
 
 This is an automated test for the web-UI of the designo-agency website.
 
-#How to run test
+
+How to run test
 
 Navigate to Test, then Runner then run test. 
 
