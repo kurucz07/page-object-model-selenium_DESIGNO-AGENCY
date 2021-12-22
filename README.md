@@ -1,6 +1,6 @@
 Designo-agency
 
-This is an automated test for the web-UI of the designo-agency website.
+This is a GUI test for the designo-agency website.
 
 
 How to run test
