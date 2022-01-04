@@ -3,7 +3,7 @@ from ui_test.pages.our_company.OurCompany import OurCompany
 from ui_test.pages.locations.Locations import Locations
 from ui_test.pages.contact.Contact import Contact
 from ui_test.pages.homepage.HomePage import HomePage
-from test.TestRules import TestRules
+from tests.TestRules import TestRules
 
 
 @Suite(parameters=[HomePage,Contact, Locations, OurCompany], rules=TestRules)
